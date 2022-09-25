@@ -1,0 +1,252 @@
+*{
+margin:0;
+padding:0;
+
+}
+
+@font-face{
+    font-family:Staatliches;
+    src:url(font/Staatliches.ttf);
+}
+@font-face{
+    font-family:Kanit;
+    src:url(font/Kanit.ttf);
+}
+h2,h4{
+	color:black;
+	text-align:center;
+	font-family:Kanit;
+}
+h4{
+	margin-bottom:5%;
+}
+#odliczanie{
+    font-size: 30px;
+}
+#data{
+    font-size: 30px;
+}
+li{
+    display: inline;
+    border:3px solid black;
+	box-shadow: 0 0 3px 3px black;
+    font-family:Kanit; 
+    margin: 0.5%;
+    background-color:rgb(181, 34, 34);
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+aside{
+	width:35%;
+	margin-top:10%;
+	float:left;
+	margin-left:10%;
+	font-family:Staatliches, cursive;
+	font-size:12px;
+	color:black;
+	position:fixed;
+	text-align:justify;
+}
+.h1a{
+	font-family:Staatliches;
+	font-size:20px;
+}
+#glowny{
+    font-size:40px;
+}
+.soc{ 
+    border-radius: 900px;
+    -webkit-border-radius: 900px;
+    -moz-border-radius: 900px;
+	margin-top:15px;
+	overflow: hidden;
+    position: relative;
+	margin:auto;
+    padding:0;
+    width: 2%
+}
+.soc:hover{
+	border-color: darkred;
+    z-index: 999;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+#tekst{
+	width: 20%;
+	margin-top:15px;
+	position:fixed;
+	font-family:Kanit;
+	
+}
+article{
+	width: 40%;
+	margin:auto;
+	background-color:rgba(181, 34, 34, 0.8);
+	float:right;
+	margin-right:10%;
+	margin-top:10%;
+	margin-bottom: 20px;
+	position:relative;
+	
+}
+#czas{
+	max-width:100px;
+	margin-left:10px;
+	opacity:0.5;
+}
+
+body{
+	width:100%;
+	
+	background-color:rgb(181, 34, 34);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+	
+header{
+	width: 100%;
+	position:fixed;
+    height:40%;
+    background-image:url(Grafika/25.png);
+    background-size:100% 150%;
+    background-repeat: no-repeat;
+}
+.foto {
+    width:200px;
+	height:200px;
+	border:3px solid black;
+	box-shadow: 0 0 3px 3px black;
+	display:block;
+	margin:auto;
+}
+.galeria{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:2.5%;
+    margin-bottom:2.5%;
+	display:block;
+	width:70%;
+	border-style:solid;
+	border-color:black;
+	border-width:10px;
+	-webkit-box-shadow: -10px 15px 33px -1px rgba(0,0,0,1);
+    -moz-box-shadow: -10px 15px 33px -1px rgba(0,0,0,1);
+    box-shadow: -10px 15px 33px -1px rgba(0,0,0,1);
+}
+.list{
+    margin: 0.5%;
+	display: inline;
+	width:5%;
+    text-decoration: none;
+    color: black;
+}
+.list:visited{
+    margin: 0.5%;
+	width:5%;
+    text-decoration: none;
+}
+footer{
+	float: left; 
+	position:fixed;
+	bottom:0;
+	left:0;
+	color:black; 
+	font-family:Kanit;
+    margin-left: 20%;
+	
+}
+.spec{
+    color: black;
+	padding:10px;
+	font-family:Staatliches;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top:5%;
+	display:block;
+	width:65%;
+	border-style:solid;
+	border-color:black;
+	border-width:10px;
+	-webkit-box-shadow: -10px 15px 33px -1px rgba(0,0,0,1);
+    -moz-box-shadow: -10px 15px 33px -1px rgba(0,0,0,1);
+    box-shadow: -10px 15px 33px -1px rgba(0,0,0,1);
+}
+#list{
+    height 10%;
+    width: 100%;
+    margin: 2%;
+}
+#return{
+	padding:10px;
+    margin-left: auto;
+	margin-right: auto;
+	margin-top:5%;
+	display:block;
+	width:10%;
+	
+}
+
+#return:hover{
+
+    z-index: 999;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#tlo{
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+#funkcja{
+	display:block;
+	width:80%;
+
+}
+#special{
+  	width: 70%;
+	background-color:rgba(181, 34, 34, 0.8);
+	float:right;
+	margin-right:10%;
+	margin-top:10%;
+	position:relative;
+	  
+}
+#oferta{
+    display:block;
+	width:98.5%;
+    height: 500px;
+    border-style:solid;
+	border-color:black;
+	border-width:10px;
+	-webkit-box-shadow: -10px 15px 33px -1px rgba(0,0,0,1);
+    -moz-box-shadow: -10px 15px 33px -1px rgba(0,0,0,1);
+    box-shadow: -10px 15px 33px -1px rgba(0,0,0,1);
+}
+#myPicture{
+    height: 100%;
+    width: 100%;
+}
+tr, td{
+    color: black;
+    font-family: Staatliches;
+    padding-left: 5%;
+    align: center;
+}
+button{
+    background-color:rgb(181, 34, 34) ;
+    font-family: Kanit;
+    color: black;
+}
+	
